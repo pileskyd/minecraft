@@ -1,0 +1,30 @@
+services:
+  server:
+    image: itzg/minecraft-server:java21-alpine
+    container_name: server-paper
+    ports:
+      - "25565:25565" # Порт для подключения к серверу Minecraft
+      - "25575:25575" # Порт для RCON
+    environment:
+      TYPE: PAPER
+      EULA: "TRUE" # Принятие лицензионного соглашения Mojang
+      VERSION: "1.20.4" # Версия Minecraft-сервера
+      ONLINE_MODE: "FALSE" # Отключение проверки лицензии (разрешение пиратских клиентов)
+      ENABLE_RCON: "TRUE" # Включение RCON
+      RCON_PASSWORD: "kurw@Password" # Пароль для RCON
+      RCON_PORT: 25575 # Порт для RCON
+      RESOURCE_PACK: "https://github.com/pileskyd/minecraft/raw/refs/heads/master/resourcepack/ResourcePackX.zip"
+    volumes:
+      - ./data:/data
+      - ./plugins:/data/plugins
+      - ./datapacks:/world/datapacks
+    stdin_open: true
+    tty: true
+    # networks:
+    #   - dokploy-network
+# networks:
+#   dokploy-network:
+#     external: true
+
+# volumes:
+#   data:
