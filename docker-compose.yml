@@ -8,7 +8,7 @@ services:
     environment:
       TYPE: PAPER
       EULA: "TRUE" # Принятие лицензионного соглашения Mojang
-      ICON: "https://github.com/pileskyd/minecraft/raw/refs/heads/master/icon.png"
+      # ICON: "https://github.com/pileskyd/minecraft/raw/refs/heads/master/icon.png"
       MOTD: "GBDCraft"
       VERSION: "1.20.4" # Версия Minecraft-сервера
       ONLINE_MODE: "FALSE" # Отключение проверки лицензии (разрешение пиратских клиентов)
