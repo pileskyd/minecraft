@@ -168,3 +168,32 @@ Caused by: java.net.SocketTimeoutException: Connect timed out
 [07:26:21] [Server thread/INFO]: MrDenySU[/192.168.117.1:42467] logged in with entity id 51 at ([world]3.5, 77.0, 2.5)
 [07:26:29] [Server thread/INFO]: MrDenySU lost connection: Disconnected
 [07:26:29] [Server thread/INFO]: MrDenySU left the game
+[07:26:57] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
+[07:26:57] [Server thread/INFO]: [Rcon: Stopping the server]
+[07:26:57] [RCON Client /0:0:0:0:0:0:0:1 #2/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
+[07:26:57] [Server thread/INFO]: Stopping server
+[07:26:57] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.1
+[07:26:57] [Server thread/INFO]: Saving players
+[07:26:57] [Server thread/INFO]: Saving worlds
+[07:26:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[07:26:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[07:26:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[07:26:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[07:26:59] [Server thread/INFO]: [ChunkHolderManager] Saved 2887 block chunks, 588 entity chunks, 3 poi chunks in world 'world' in 1.80s
+[07:26:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07:26:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[07:26:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[07:26:59] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[07:26:59] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[07:27:00] [Server thread/INFO]: [ChunkHolderManager] Saved 2025 block chunks, 529 entity chunks, 2 poi chunks in world 'world_nether' in 1.18s
+[07:27:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:27:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[07:27:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[07:27:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[07:27:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[07:27:00] [Server thread/INFO]: [ChunkHolderManager] Saved 2025 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.34s
+[07:27:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:27:00] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:27:00] [Server thread/INFO]: Flushing Chunk IO
+[07:27:00] [Server thread/INFO]: Closing Thread Pool
+[07:27:00] [Server thread/INFO]: Closing Server
