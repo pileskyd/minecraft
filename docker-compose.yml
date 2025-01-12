@@ -20,11 +20,3 @@ services:
       - ./datapacks:/world/datapacks
     stdin_open: true
     tty: true
-    # networks:
-    #   - dokploy-network
-# networks:
-#   dokploy-network:
-#     external: true
-
-# volumes:
-#   data:
