@@ -19,6 +19,6 @@ services:
     volumes:
       - ./data:/data
       - ./plugins:/data/plugins
-      - ./datapacks:/world/datapacks
+      - ./datapacks:/data/world/datapacks
     stdin_open: true
     tty: true
